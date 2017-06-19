@@ -27,5 +27,5 @@ function openmenu(a){
     }
 })(document, window.navigator, "standalone");
 
-//var snapper = new Snap({element: document.getElementById('content'),hyperextensible: false,disable:'right'});
+var snapper = new Snap({element: document.getElementById('content'),hyperextensible: false,disable:'right'});
 var snapper = new Snap({element: document.getElementById('content'),hyperextensible: false});
